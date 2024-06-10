@@ -14,7 +14,7 @@ jobs:
         with:
             force: ${{ github.event.inputs.force }}
             mode: direct
-            speakeasy_version: latest
+            speakeasy_version: v1.301.0
         secrets:
             github_access_token: ${{ secrets.GITHUB_TOKEN }}
             npm_token: ${{secrets.NPM_TOKEN}}
